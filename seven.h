@@ -18,4 +18,20 @@ double approximateSeven(int amt)
 
 }
 
+double approximateDifflerentNumer(int N)
+{
+
+    double sum = 0;
+
+
+    for (int i = 0; i < N; i++)
+    {
+
+        sum += 1 / i;
+
+    }
+
+    return sum;
+
+}
 
