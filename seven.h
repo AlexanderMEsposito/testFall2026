@@ -2,9 +2,7 @@
 
 double approximateSeven(int amt)
 {
-    if (amt == 0) return 8;
-
-    static double vals[] = {1, 4, 2, 8, 5, approximateSeven(amt - 1)};
+    static double vals[] = {1, 4, 2, 8, 5, 6.9999999999};
 
     double sum = 0;
     double n = 10;
